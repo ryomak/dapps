@@ -6,3 +6,9 @@ install-splcli:
     cargo install spl-token-cli
 create-wallet:
     solana-keygen new
+get-public-key:
+    solana address
+create-token:
+    spl-token create-token --url devnet
+mint-token
+
